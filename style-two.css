@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 30px 100px 100px 100px;
+
+}
+
+.title {
+    line-height: 0.5;
+}
+
+.title > h1 {
+    color: black;
+}
+
+.title > h4 {
+    color: rgb(144, 144, 170);
+}
+
+.dark-mode {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(144, 144, 170);
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-block {
+    border-top: 5px solid rgb(0, 119, 255);
+    background: hsl(227, 47%, 96%);
+    height: 200px;
+    width: 150px;
+    padding: 10px 50px 15px 50px;
+    margin-left: 20px;
+    border-radius: 3%;
+}
+
+#youtube {
+    border-top: 5px solid red;
+}
+
+#instagram {
+    border-top: 5px solid rgb(255, 145, 0);
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(144, 144, 170);
+    font-size: 12px;
+}
+
+.name > img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.numbers {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+    line-height: 0.6;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.numbers > span {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.numbers > h4 {
+    color: rgb(144, 144, 170);
+    letter-spacing: 5px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1EB589;
+    font-size: 12px;
+}
+
+.rating > img {
+    height: 4px;
+    margin-right: 5px;
+}
+
+#red {
+    color: #DC414C;
+}
+
+.today{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.today-block {
+    background: hsl(227, 47%, 96%);
+    height: 100px;
+    width: 200px;
+    padding: 0px 20px 0px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 3%;
+}
+
+.today-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(144, 144, 170);
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.today-name > img {
+    height: 20px;
+}
+
+.today-number{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.change {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: #1EB589;
+}
+
+.change > img {
+    height: 4px;
+    margin-right: 5px;
+}
